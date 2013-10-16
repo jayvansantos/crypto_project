@@ -16,5 +16,6 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     
     url(r'^students$', 'main.views.students_view'),
+    url(r'^students/crypto/$', 'main.views.students_view_crypto'),
     
 )
